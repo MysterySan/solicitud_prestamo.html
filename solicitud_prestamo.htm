@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Solicitud de Préstamo Estudiantil</title>
+</head>
+<body>
+    <h1>Formulario de Solicitud de Préstamo Estudiantil</h1>
+    <form>
+        <label for="nombre">Nombre Completo:</label>
+<input type="text" id="nombre" name="nombre"><br><br>
+
+<label for="email">Correo Electrónico:</label>
+<input type="email" id="email" name="email"><br><br>
+
+<label for="telefono">Número de Teléfono:</label>
+<input type="text" id="telefono" name="telefono"><br><br>
+
+<label for="direccion">Dirección Actual:</label>
+<input type="text" id="direccion" name="direccion"><br><br>
+
+<label for="ciudad">Ciudad:</label>
+<input type="text" id="ciudad" name="ciudad"><br><br>
+
+<label for="estado">Estado:</label>
+<select id="estado" name="estado">
+    <option value="AT">Atlantida</option>
+    <option value="CH">Choluteca</option>
+    <option value="CL">Colón</option>
+    <option value="CM">Comayagua</option>
+    <option value="CP">Copán</option>
+    <option value="CR">Cortés</option>
+    <option value="EP">El Paraíso</option>
+    <option value="FM">Francisco Morazán</option>
+    <option value="GD">Gracias a Dios</option>
+    <option value="IN">Intibucá</option>
+    <option value="IB">Islas de la Bahía</option>
+    <option value="LP">La Paz</option>
+    <option value="LM">Lempira</option>
+    <option value="OC">Ocotepeque</option>
+    <option value="OL">Olancho</option>
+    <option value="SB">Santa Bárbara</option>
+    <option value="VL">Valle</option>
+    <option value="YO">Yoro</option>
+</select><br><br>
+
+<label for="codigo_postal">Código Postal:</label>
+<input type="text" id="codigo_postal" name="codigo_postal"><br><br>
+
+<p>Nivel de Educación Actual:</p>
+<input type="radio" id="preparatoria" name="nivel_educacion" value="preparatoria">
+<label for="preparatoria">Preparatoria</label><br>
+<input type="radio" id="licenciatura" name="nivel_educacion" value="licenciatura">
+<label for="licenciatura">Licenciatura</label><br>
+<input type="radio" id="maestria" name="nivel_educacion" value="maestria">
+<label for="maestria">Maestría</label><br>
+<input type="radio" id="doctorado" name="nivel_educacion" value="doctorado">
+<label for="doctorado">Doctorado</label><br><br>
+
+<p>Programa de Estudio:</p>
+<input type="radio" id="computacion" name="programa_estudio" value="computacion">
+<label for="computacion">Ciencias de la Computación</label><br>
+<input type="radio" id="ingenieria" name="programa_estudio" value="ingenieria">
+<label for="ingenieria">Ingeniería</label><br>
+<input type="radio" id="economia" name="programa_estudio" value="economia">
+<label for="economia">Economía</label><br>
+<input type="radio" id="artes" name="programa_estudio" value="artes">
+<label for="artes">Artes</label><br>
+<input type="radio" id="otro" name="programa_estudio" value="otro">
+<label for="otro">Otro</label><br><br>
+
+<label for="monto_prestamo">Monto del Préstamo Solicitado:</label>
+<input type="text" id="monto_prestamo" name="monto_prestamo"><br><br>
+
+<label for="razon_prestamo">Razón para Solicitar el Préstamo:</label><br>
+<textarea id="razon_prestamo" name="razon_prestamo" rows="4" cols="50"></textarea><br><br>
+
+<button type="submit">Enviar Solicitud</button>
+    </form>
+</body>
+</html>
